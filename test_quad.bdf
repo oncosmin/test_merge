@@ -1,0 +1,150 @@
+$ MSC.Nastran input file created on November  20, 2019 at 14:56:34 by
+$ Patran 2017.0.2
+$ Linear Static Analysis, Database
+$ Elements and Element Properties for region : pbeam.9710620
+PBEAM    9710620 9710620390.533 137342. 102607.         681.604
++
+         YES    1.      390.533 137342. 102607.         681.604
++
+         0.      0.
+                                        19.3259         19.3259
+$ Pset: "pbeam.9710620" will be imported as: "pbeam.9710620"
+CBEAM    9710620 9710620 971060  981060  0.      0.     -1.
+$ Elements and Element Properties for region : pbeam.9710820
+PBEAM    9710820 9710820390.533 137342. 102607.         681.604
++
+         YES    1.      390.533 137342. 102607.         681.604
++
+         0.      0.
+                                        19.3259         19.3259
+$ Pset: "pbeam.9710820" will be imported as: "pbeam.9710820"
+CBEAM    9710820 9710820 971080  981080  0.      0.     -1.
+$ Elements and Element Properties for region : pbeam.9810610
+PBEAM    9810610 98106101057.54 6.7784+6100.            100.
+        30.                                             12.616
+         YES    1.      1057.54 6.7784+6100.            100.
+        30.                                             12.616
+        .370313  0.
+                                        137.934         137.934
+$ Pset: "pbeam.9810610" will be imported as: "pbeam.9810610"
+CBEAM    9810610 9810610 981070  981060  0.      0.     -1.
+$ Elements and Element Properties for region : pbeam.9810620
+PBEAM    9810620 9810620390.533 137342. 102607.         681.604
++
+         YES    1.      390.533 137342. 102607.         681.604
++
+         0.      0.
+                                        19.3259         19.3259
+$ Pset: "pbeam.9810620" will be imported as: "pbeam.9810620"
+CBEAM    9810620 9810620 981060  991060  0.      0.     -1.
+$ Elements and Element Properties for region : pbeam.9810710
+PBEAM*   9810710         9810710        976.36          5.91875+6
+*       100.                            100.
+        30.                                             12.616
+*        YES            1.              976.36          5.91875+6
+*       100.                            100.
+        30.                                             12.616
+        .36313   0.
+                                        144.599         144.599
+$ Pset: "pbeam.9810710" will be imported as: "pbeam.9810710"
+CBEAM    9810710 9810710 981080  981070  0.      0.     -1.
+$ Elements and Element Properties for region : pbeam.9810820
+PBEAM    9810820 9810820390.533 137342. 102607.         681.604
++
+         YES    1.      390.533 137342. 102607.         681.604
++
+         0.      0.
+                                        19.3259         19.3259
+$ Pset: "pbeam.9810820" will be imported as: "pbeam.9810820"
+CBEAM    9810820 9810820 981080  991080  0.      0.     -1.
+$ Elements and Element Properties for region : pbeam.9910610
+PBEAM*   9910610         9910610        710.782         3.61956+6
+*       100.                            100.
+        30.                                             12.616
+*        YES            1.              710.782         3.61956+6
+*       100.                            100.
+        30.                                             12.616
+        .464239  0.
+                                        122.364         122.364
+$ Pset: "pbeam.9910610" will be imported as: "pbeam.9910610"
+CBEAM    9910610 9910610 991063  991060  0.      0.     -1.
+$ Elements and Element Properties for region : pbeam.9910611
+PBEAM    9910611 9910611685.373 3.9294+6100.            100.
+        30.                                             12.616
+         YES    1.      685.373 3.9294+6100.            100.
+        30.                                             12.616
+        .376962  0.
+                                        108.195         108.195
+$ Pset: "pbeam.9910611" will be imported as: "pbeam.9910611"
+CBEAM    9910611 9910611 991080  991063  0.      0.     -1.
+$ Elements and Element Properties for region : pshell.9710630
+PSHELL   9710630 9710630.1
+$ Pset: "pshell.9710630" will be imported as: "pshell.9710630"
+CQUAD4   9710630 9710630 971070  981070  981060  971060  60
+$ Elements and Element Properties for region : pshell.9710730
+PSHELL   9710730 9710730.1
+$ Pset: "pshell.9710730" will be imported as: "pshell.9710730"
+CQUAD4   9710730 9710730 971080  981080  981070  971070  60
+$ Elements and Element Properties for region : pshell.9810630
+PSHELL   9810630 9810630.1
+$ Pset: "pshell.9810630" will be imported as: "pshell.9810630"
+CQUAD4   9810630 9810630 981070  991063  991060  981060  60
+$ Elements and Element Properties for region : pshell.9810730
+PSHELL   9810730 9810730.1
+$ Pset: "pshell.9810730" will be imported as: "pshell.9810730"
+CQUAD4   9810730 9810730 981080  991080  991063  981070  60
+$ Referenced Material Records
+$ Material Record : mat1.9710620
+$ Description of Material :
+MAT1     9710620110300. 42100.  .309976 4.5-6   9.-6
+$ Material Record : mat1.9710820
+$ Description of Material :
+MAT1     9710820110300. 42100.  .309976 4.5-6   9.-6
+$ Material Record : mat1.9810610
+$ Description of Material :
+MAT1     981061078000.  30000.  .3      2.63-6  2.35-5
+$ Material Record : mat1.9810620
+$ Description of Material :
+MAT1     9810620110300. 42100.  .309976 4.5-6   9.-6
+$ Material Record : mat1.9810710
+$ Description of Material :
+MAT1     981071078000.  30000.  .3      2.63-6  2.35-5
+$ Material Record : mat1.9810820
+$ Description of Material :
+MAT1     9810820110300. 42100.  .309976 4.5-6   9.-6
+$ Material Record : mat1.9910610
+$ Description of Material :
+MAT1     991061078000.  30000.  .3      2.63-6  2.35-5
+$ Material Record : mat1.9910611
+$ Description of Material :
+MAT1     991061178000.  30000.  .3      2.63-6  2.35-5
+$ Material Record : mat8.9710630
+$ Description of Material :
+MAT8     971063070350.  42210.  .33     26447.3 .01     .01     2.8-6
+        2.25-5  2.25-5
+$ Material Record : mat8.9710730
+$ Description of Material :
+MAT8     971073070350.  42210.  .33     26447.3 .01     .01     2.8-6
+        2.25-5  2.25-5
+$ Material Record : mat8.9810630
+$ Description of Material :
+MAT8     981063070350.  42210.  .33     26447.3 .01     .01     2.8-6
+        2.25-5  2.25-5
+$ Material Record : mat8.9810730
+$ Description of Material :
+MAT8     981073070350.  42210.  .33     26447.3 .01     .01     2.8-6
+        2.25-5  2.25-5
+$ Nodes of Group : test
+GRID     971060         59144.4 -2215.  -136.
+GRID     971070         59144.4 -2130.  -136.
+GRID     971080         59144.4 -1780.  -136.
+GRID     981060         59779.4 -2215.  -136.
+GRID     981070         59779.4 -2110.  -136.
+GRID     981080         59779.4 -1780.  -136.
+GRID     991060         60414.4 -2215.  -136.
+GRID     991063         60414.4 -1945.  -136.
+GRID     991080         60414.4 -1780.  -136.
+$ Loads for Load Case : Default
+$ Referenced Coordinate Frames
+CORD2R   60              0.      0.      0.      0.      0.     1.
+        1.       0.      0.
