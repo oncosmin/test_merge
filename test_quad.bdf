@@ -1,6 +1,3 @@
-$ MSC.Nastran input file created on November  20, 2019 at 14:56:34 by
-$ Patran 2017.0.2
-$ Linear Static Analysis, Database
 $ Elements and Element Properties for region : pbeam.9710620
 PBEAM    9710620 9710620390.533 137342. 102607.         681.604
 +
